@@ -1,13 +1,9 @@
-/* module.style.css */
-
-/* Styles for Container */
 .container {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-/* Styles for Card */
 .card {
   border: 1px solid #dee2e6;
   border-radius: .25rem;
@@ -52,7 +48,6 @@
   margin-bottom: 15px;
 }
 
-/* Styles for Button */
 .cardButton {
   background-color: #007bff;
   border-color: #007bff;
@@ -70,3 +65,4 @@
   background-color: #0069d9;
   border-color: #0062cc;
 }
+ 
