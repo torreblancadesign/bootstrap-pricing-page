@@ -40,7 +40,9 @@ const Component = () => {
         </div>
       </div>
 
+</div>
   );
 };
 
 export default Component;
+ 
