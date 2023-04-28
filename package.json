@@ -1,39 +1,26 @@
-</li>
-            <li>Community Access</li>
-            <li><strong>Unlimited Private Projects</strong></li>
-            <li>Dedicated Phone Support</li>
-            <li>Free Subdomain</li>
-          </ul>
-        </div>
-        <div className={styles.cardFooter}>
-          <button className={styles.cardButton}>Select</button>
-        </div>
-      </div>
-
-      <div className={styles.card}>
-        <div className={styles.cardHeader}>
-          <h4 className={styles.cardTitle}>Pro</h4>
-          <p className={styles.cardPrice}>$49<span className={styles.cardDuration}>/month</span></p>
-        </div>
-        <div className={styles.cardBody}>
-          <ul className={styles.cardList}>
-            <li><strong>Unlimited Users</strong></li>
-            <li>150GB Storage</li>
-            <li>Unlimited Public Projects</li>
-            <li>Community Access</li>
-            <li>Unlimited Private Projects</li>
-            <li>Dedicated Phone Support</li>
-            <li><strong>Free Domain</strong></li>
-          </ul>
-        </div>
-        <div className={styles.cardFooter}>
-          <button className={styles.cardButton}>Select</button>
-        </div>
-      </div>
-    </div>
-  );
-};
-
-export default Component;
-```
+{
+  "name": "nextjs-app",
+  "version": "1.0.0",
+  "description": "Next.js App",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "start": "next start",
+    "build": "next build"
+  },
+  "keywords": [
+    "Next.js",
+    "React"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "next": "^9.4.4"
+  },
+  "engines": {
+    "node": "14.x"
+  }
+}
  
