@@ -1,0 +1,38 @@
+</li>
+            <li>Community Access</li>
+            <li><strong>Unlimited Private Projects</strong></li>
+            <li>Dedicated Phone Support</li>
+            <li>Free Subdomain</li>
+          </ul>
+        </div>
+        <div className={styles.cardFooter}>
+          <button className={styles.cardButton}>Select</button>
+        </div>
+      </div>
+
+      <div className={styles.card}>
+        <div className={styles.cardHeader}>
+          <h4 className={styles.cardTitle}>Pro</h4>
+          <p className={styles.cardPrice}>$49<span className={styles.cardDuration}>/month</span></p>
+        </div>
+        <div className={styles.cardBody}>
+          <ul className={styles.cardList}>
+            <li><strong>Unlimited Users</strong></li>
+            <li>150GB Storage</li>
+            <li>Unlimited Public Projects</li>
+            <li>Community Access</li>
+            <li>Unlimited Private Projects</li>
+            <li>Dedicated Phone Support</li>
+            <li><strong>Free Domain</strong></li>
+          </ul>
+        </div>
+        <div className={styles.cardFooter}>
+          <button className={styles.cardButton}>Select</button>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Component;
+```
